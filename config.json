@@ -1,0 +1,31 @@
+{
+  "minecraft": {
+    "version": "1.21.3",
+    "loader": {
+      "type": "fabric",
+      "version": "0.15.1"
+    }
+  },
+  "profile": {
+    "default_name": "Enchanted Parks",
+    "icon": "Grass",
+    "java_args": "-Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M"
+  },
+  "installation": {
+    "mods_relative_path": "mods/enchantedparks",
+    "create_directories": true,
+    "backup_existing": true
+  },
+  "ui": {
+    "show_explanations": true,
+    "explanation_delay": 1500,
+    "colorscheme": {
+      "primary": "#B13E61",
+      "secondary": "#cd6e57",
+      "background": "#1a1a1a",
+      "background_light": "#2a2a2a",
+      "text": "#ffffff",
+      "text_light": "#e0e0e0"
+    }
+  }
+}
