@@ -3,7 +3,7 @@
     "version": "1.21.3",
     "loader": {
       "type": "fabric",
-      "version": "0.15.1"
+      "version": "0.16.8"
     }
   },
   "profile": {
